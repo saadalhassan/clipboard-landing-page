@@ -1,0 +1,350 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    cursor:auto;
+  
+}
+
+
+.top-logo{
+    margin-top: 90px;
+    height: 125px;
+    width: 125px;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    background-image: url(images/bg-header-desktop.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+
+.container{
+    padding-top: 20px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading2{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    margin-top: 50px;
+    border: none;
+    border-radius: 20px;
+    width: 227px;
+    height: 50px;
+    color: white;
+    font-weight: bolder;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button.ios{
+    background-color: #2acab2;
+    box-shadow: inset 2px 1px 4px 3px #30af9c;
+    border-style: solid 10px;
+}
+
+button.Mac{
+    background-color: #6174FF;
+    box-shadow: inset 2px 1px 4px 3px #7681d7;
+
+}
+
+button.ios:hover{
+    background-color: #1d9583;
+
+}
+
+button.Mac:hover{
+    background-color: #5a6ae8;
+}
+
+.download-buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+h1{
+    font-size: 46px;
+    color: #4C545C;
+}
+
+h3{
+    font-size: 36px;
+    color: #4C545C;
+}
+
+h4{
+    font-size: 24px;
+    color: #4C545C;
+}
+
+p{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+    color: #9EABB2;
+    text-align: center;
+}
+
+h6{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color: #000000;
+    text-align: left;
+}
+
+h6:hover{
+    font-weight: 400;
+    color: #209684;
+    cursor: pointer;
+}
+
+.deskpro-section{
+    margin-top: 100px;
+    display: flex;
+    gap: 85px;
+}
+
+.subtext{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    color: #9EABB2;
+}
+
+.text1{
+    font-size: 16px;
+    text-align: left;
+}
+
+.access-clipboard-section{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: #4C545C;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.text2{
+    font-size: 16;
+}
+
+.workflow{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+}
+
+.workflowtypes{
+    display: flex;
+    gap: 10px;
+}
+
+.group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image{
+    width: 60px;
+    height: 60px;
+}
+
+.company-logos{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.bottom-heading{
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.bottom-logo{
+    width: 55px;
+    height: 55px;
+    margin: 10px 150px;
+
+}
+
+.footer-container{
+  
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer{
+    width: 100vw;
+    margin-top: 70px;
+    background-color: #c2c8cb;
+    padding: 35px;
+ }
+
+.footer-text-container{
+    display: flex;
+    gap: 40px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.social-media{
+    margin-left: 150px;
+    display: flex;
+    gap: 40px;
+}
+
+#icon:hover{
+    cursor: pointer;
+    fill:#209684
+}
+
+@media (max-width: 700px) {
+
+.container{
+    background-image: url(images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top-logo{
+    height: 220px;
+    width: 220px;
+}
+
+.heading{
+    margin-top: 200px;
+}
+
+h1{
+    margin-top: 100px;
+    font-size: 95px;
+    text-align: center;
+    
+}
+
+.download-buttons{
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    font-size: 35px;
+
+}
+
+.ios, .Mac{
+    width: 90vw;
+    height: 100px;
+    font-size: 35px;
+}
+
+
+
+h3{
+    font-size: 80px;
+    align-items: center;
+    text-align: center;
+}
+
+h4,h6{
+    text-align: center;
+}
+
+.deskpro-section{
+    flex-direction: column;
+    align-items: center;
+}
+
+.text1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.workflowtypes{
+   flex-direction: column;
+}
+
+.company-logos{
+    margin-top: 200px;
+    width: 40%;
+    flex-direction: column;
+    align-self: center;
+    gap: 80px;
+}
+
+.footer{
+    width: 100vw;
+    margin-top: 370px;
+    background-color: #c2c8cb;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .footer-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    margin: 0;
+}
+
+.footer-text-container{
+    margin-top: 50px;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h6{
+    font-size: 25px;
+    color: #000000;
+    font-weight: 200;
+}
+
+.bottom-logo{
+    width: 75px;
+    height: 75px;
+}
+
+.social-media{
+    align-self: center;
+    margin-left: 0;
+}
+
+}
